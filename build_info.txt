@@ -1,0 +1,38 @@
+**. CTAs placed Sporadically
+*. Floating whatsapp button
+0. Header
+1. Hero(home).(CTA)
+2. About us
+3. Services
+4. Gallery
+5. Our team - Meet the barbers
+6. Social proof
+7. Location, hours and map 
+8. FAQ
+9. Final booking CTA
+10. Footer
+
+--------------------------------
+
+Paleta de cores
+
+1. Preto
+2. Dourado
+3. Branco(?)
+--------------------------------
+
+Tipografia
+
+Fonte:
+
+- Montserrat Bold ou Medium (Provavelmente essa)
+- Futura versão Bold / Medium
+- Proxima Nova ou Gotham
+
+================================================
+
+1. Hero section	
+	- Headline
+	- Subheadline
+	- Call to action button
+	- Supporting image
