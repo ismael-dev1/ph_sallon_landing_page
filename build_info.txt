@@ -1,12 +1,11 @@
 **. CTAs placed Sporadically
 *. Floating whatsapp button
-0. Header
-1. Hero(home).(CTA)
-2. About us
-3. Services
-4. Gallery
-5. Our team - Meet the barbers
-6. Social proof
+1. Header
+2. Hero with CTA
+3. Gallery
+4. Social proof
+5. Services and prices (with CTA)
+6. About us and the barbers
 7. Location, hours and map 
 8. FAQ
 9. Final booking CTA
@@ -14,25 +13,30 @@
 
 --------------------------------
 
-Paleta de cores
+Color pallete 
 
-1. Preto
-2. Dourado
-3. Branco(?)
+1. Black
+2. Golden
+3. White(?)
+
 --------------------------------
 
-Tipografia
+Typography
 
-Fonte:
+Font:
 
-- Montserrat Bold ou Medium (Provavelmente essa)
+- Montserrat Bold ou Medium (Probably this one)
 - Futura versão Bold / Medium
 - Proxima Nova ou Gotham
 
-================================================
+--------------------------------
 
-1. Hero section	
+2. Hero section
 	- Headline
 	- Subheadline
-	- Call to action button
+	- CTA button
 	- Supporting image
+
+https://barbeariadoze.com.br/
+https://barbeariadonpaiva.com/index.html
+https://www.therockspvh.com.br/
