@@ -1,8 +1,0 @@
-Mobile first
-
-1. Header:
-	- Shop icon or name on the left
-	- A compact “Book” button on the right
-	- No full menu. 
-	- If you want navigation, use a simple hamburger icon.
-	

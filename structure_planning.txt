@@ -1,0 +1,67 @@
+MOBILE (first)
+
+*. Floating whatsapp button
+
+1. Header:
+	- Shop icon
+	- Shop name
+	- Toggle-menu
+		- Hero (Início)
+		- Gallery
+		- Social proof (Clientes)
+		- Services and prices (Serviços)
+		- About us and the barbers (Sobre)
+		- Location, hours and map (Como chegar)
+		- FAQ (Perguntas frequentes)
+2. Hero: 
+	- Headline (5 to 8 words)
+	- Subheadline
+	- Booking link (CTA)
+	- Support image
+
+3. Gallery:
+	- Images carousel
+		- A brief carousel of photos of the five main services offered by the barber shop,
+		  one photo per service.
+4. Social proof:
+	- Make one review at a time in a swipeable card
+
+5. Services and prices (CTA):
+	- Make vertical cards by category listing the services with name, short description and price.
+		Combos:	- Corte (social ou degrade zero) + barba
+		Cortes:
+			- Degradê com navalha
+			- Social com máquina e tesoura
+			- Máquina
+			- Tesoura
+			- Infantil
+	Penteado:
+		- penteado
+	Barba:
+		- barba 
+	Raspagem:
+		- Raspagem na navalha
+	Outros:
+		- Pezinho
+		- Sobrancelha na navalha
+		- Relaxamento
+		- Hidratação
+		- Corte feminino curto
+
+	Assinatura:
+		- Pacote 1: 2 cortes + 2 barbas simples/mês
+		- Pacote 2: 4 cortes simples/mês
+		- Pacote 3: Corte simples sem navalha
+
+6. About us and the barbers:
+	- one barber card per row, with a photo, name, and specialty.
+
+7. Location, hours and map:
+	- a “Open in Maps” button
+	- Show the hours in which the shop is open 
+8. FAQ:
+	- Think about 4 to 6 FAQ questions to be answered here
+9. Final CTA:
+	full-width WhatsApp button. (CTA)
+10. Footer: 
+

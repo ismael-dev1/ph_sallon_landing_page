@@ -1,3 +1,22 @@
+Mobile structure (Mobile first)
+
+**. CTAs placed Sporadically
+*. Floating whatsapp button
+1. Header
+2. Hero (Início)
+3. Gallery (Attract new customers)
+4. Social proof (Attract new customers) 
+5. Services and prices
+6. About us and the barbers
+7. Location, hours and map
+8. FAQ
+9. Final CTA
+10. Footer
+
+--------------------------------
+
+Desktop structure
+
 **. CTAs placed Sporadically
 *. Floating whatsapp button
 1. Header
@@ -8,7 +27,7 @@
 6. About us and the barbers
 7. Location, hours and map 
 8. FAQ
-9. Final booking CTA
+9. Final CTA
 10. Footer
 
 --------------------------------
@@ -30,12 +49,6 @@ Font:
 - Proxima Nova ou Gotham
 
 --------------------------------
-
-2. Hero section
-	- Headline
-	- Subheadline
-	- CTA button
-	- Supporting image
 
 https://barbeariadoze.com.br/
 https://barbeariadonpaiva.com/index.html
