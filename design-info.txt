@@ -1,0 +1,28 @@
+Projetando a lp
+
+Design:
+	Sobre a logo:
+		Estilo clássico premium(estilo que referência e de muita qualidade)
+		com identidade vintage(antiga e de boa qualidade) e
+		elementos de barbearia tradicional.
+	
+		Prioridade: manter a logo original como elemento de identidade
+
+	- Estilo:
+		Geral:
+			- Fundo escuro
+			- Detalhes em dourado
+			- Detalhes em branco (quando viável)
+
+	- Tema:
+		Dark Luxury Barbershop:
+			- Sofisticada
+			- Masculina
+			- Contemporânea
+	
+	Paleta de cores:
+		- Preto -> #0B0B0B
+		- Dourado -> #C9A84C
+		- Off-white -> #F5F1E8
+
+	
