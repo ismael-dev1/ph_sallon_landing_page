@@ -1,0 +1,4 @@
+- Levatamento de requisitos
+- Prototipagem
+	- Rascuho da estrutura
+	- Design no Figma 

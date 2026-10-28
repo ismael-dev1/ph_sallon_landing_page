@@ -7,15 +7,14 @@ Atrair atenção
 2. Hero (Início) (CTA 1 - Agendar meu horário)
 Gerar confiança
 3. Gallery (Attract new customers) (CTA 2 - Quero um corte assim)
-4. Social proof (Attract new customers) (CTA 3 - Quero esse resultado)
+4. Social proof (Attract new customers) (CTA 3 - Reservar minha cadeira)
 Apresentar os serviços
 5. Services and prices (CTA 4 - Escolher meu serviço)
-6. About us and the barbers
 Facilitar o agendamento
-7. Location, hours and map
-8. FAQ
-9. Final CTA (CTA 5 - Reserve seu horário)
-10. Footer
+6. Location, hours and map
+7. FAQ
+8. Final CTA (CTA 5 - Reserve seu horário)
+9. Footer
 
 --------------------------------
 

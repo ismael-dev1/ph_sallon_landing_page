@@ -30,42 +30,37 @@ MOBILE (first)
 
 5. Services and prices (CTA):
 	- Make vertical cards by category listing the services with name, short description and price.
-		Combos:	- Corte (social ou degrade zero) + barba
+		Combos:
+			- Corte (social ou degrade zero) + barba
 		Cortes:
-			- Degradê com navalha
-			- Social com máquina e tesoura
-			- Máquina
-			- Tesoura
-			- Infantil
-	Penteado:
-		- penteado
-	Barba:
-		- barba 
-	Raspagem:
-		- Raspagem na navalha
-	Outros:
-		- Pezinho
-		- Sobrancelha na navalha
-		- Relaxamento
-		- Hidratação
-		- Corte feminino curto
-
+			- Corte degradê com navalha
+			- Corte social com máquina e tesoura
+			- Corte somente na máquina 
+			- Corte somente na tesoura
+			- Corte infantil
+			- Raspagem total na navalha			
+		Barba:
+			- Barba simples
+		Outros:
+			- Pezinho
+			- Sobrancelha na navalha
+			- Relaxamento
+			- Hidratação
+			- Corte feminino curto
+			- Penteado
 	Assinatura:
 		- Pacote 1: 2 cortes + 2 barbas simples/mês
 		- Pacote 2: 4 cortes simples/mês
 		- Pacote 3: Corte simples sem navalha
 
-6. About us and the barbers:
-	- one barber card per row, with a photo, name, and specialty.
-
-7. Location, hours and map:
+6. Location, hours and map:
 	- a “Open in Maps” button
 	- Show the hours in which the shop is open 
 
-8. FAQ:
+7. FAQ:
 	- Think about 4 to 6 FAQ questions to be answered here
 
-9. Final CTA:
+8. Final CTA:
 	full-width WhatsApp button. (CTA)
 
-10. Footer:
+9. Footer:
