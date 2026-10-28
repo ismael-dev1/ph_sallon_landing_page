@@ -24,5 +24,15 @@ Design:
 		- Preto -> #0B0B0B
 		- Dourado -> #C9A84C
 		- Off-white -> #F5F1E8
+		- cinza-grafite muito escuro -> #1A1A1A
+
+		Combinação sugerida
+		Fundo da seção: #080808 ou #0B0B0B
+		Fundo dos cards: #1A1A1A
+		Borda sutil: #3A3323 ou dourado com baixa opacidade
+		Nome do cliente: #FFFFFF
+		Texto da avaliação: #D6D6D6
+		Estrelas e detalhes: #D4AF37
+
 
 	
