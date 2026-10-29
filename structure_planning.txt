@@ -29,29 +29,36 @@ MOBILE (first)
 	- Make one review at a time in a swipeable card
 
 5. Services and prices (CTA):
-	- Make vertical cards by category listing the services with name, short description and price.
-		Combos:
-			- Corte (social ou degrade zero) + barba
+	- Make:
+		- Vertical cards by category listing the services with name.
+
 		Cortes:
-			- Corte degradê com navalha
-			- Corte social com máquina e tesoura
-			- Corte somente na máquina 
-			- Corte somente na tesoura
-			- Corte infantil
-			- Raspagem total na navalha			
+			01. Corte degradê com navalha
+			02. Corte social com máquina e tesoura
+			03. Corte somente na máquina 
+			04. Corte somente na tesoura
+			05. Corte feminino curto
+			06. Corte infantil
+			07. Raspagem total na navalha		
+	
 		Barba:
 			- Barba simples
-		Outros:
+
+		Combos:
+			- Corte (social ou degrade zero) + barba
+		
+		Acabamento e Detalhes:
 			- Pezinho
 			- Sobrancelha na navalha
+
+		Cuidados com o cabelo:
 			- Relaxamento
 			- Hidratação
-			- Corte feminino curto
 			- Penteado
-	Assinatura:
+	(Assinatura:
 		- Pacote 1: 2 cortes + 2 barbas simples/mês
 		- Pacote 2: 4 cortes simples/mês
-		- Pacote 3: Corte simples sem navalha
+		- Pacote 3: Corte simples sem navalha)
 
 6. Location, hours and map:
 	- a “Open in Maps” button
