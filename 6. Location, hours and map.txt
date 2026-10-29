@@ -1,0 +1,13 @@
+6. Location, hours and map:
+	- a “Open in Maps” button
+	- Show the hours in which the shop is open 
+	
+	Um card com a foto da barbearia de fundo e um gradiente na frente com as informações por cima com outro card embaixo exibindo a 	localização no mapa?
+
+	Um botão com a opção de "Ver no mapa"?
+	
+	- Foto da barbearia ao lado de fora ou do ambiente interno(?)
+	- Título/nome da barbearia(?)
+	- Endereço completo(Rua, número, bairro, CEP (Plantar a visualização no mapa?)) 
+	- Dias de funcionamento
+	- Horário de funcionamento 
