@@ -11,10 +11,9 @@ Gerar confiança
 Apresentar os serviços
 5. Services and prices (CTA 4 - Escolher meu serviço)
 Facilitar o agendamento
-6. Location, hours and map
+6. Location, hours and map (CTA 5 - Agendar agora)
 7. FAQ
-8. Final CTA (CTA 5 - Reserve seu horário)
-9. Footer
+8. Footer 
 
 --------------------------------
 

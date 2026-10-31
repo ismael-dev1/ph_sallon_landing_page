@@ -67,7 +67,5 @@ MOBILE (first)
 7. FAQ:
 	- Think about 4 to 6 FAQ questions to be answered here
 
-8. Final CTA:
-	full-width WhatsApp button. (CTA)
 
-9. Footer:
+8. Footer:
