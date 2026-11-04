@@ -66,6 +66,7 @@ MOBILE (first)
 
 7. FAQ:
 	- Think about 4 to 6 FAQ questions to be answered here
+	  (<details>/<summary>)
 
 
 8. Footer:

@@ -1,0 +1,12 @@
+7. FAQ:
+	- Think about 4 to 6 FAQ questions to be answered here
+	- O primeiro aberto e o demais fechados 
+		- Faço cards separados ou conjugados?
+			Separados
+	
+	1. Preciso agendar horário ou posso ir direto?
+	2. Quais formas de pagamento são aceitas?
+	3. Posso cancelar ou remarcar meu horário?
+	4. Vocês atendem a domicílio?
+	5. Posso levar uma foto de referência do corte que quero?
+	6. Quanto tempo dura cada atendimento?

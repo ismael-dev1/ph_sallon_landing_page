@@ -12,7 +12,7 @@ Apresentar os serviços
 5. Services and prices (CTA 4 - Escolher meu serviço)
 Facilitar o agendamento
 6. Location, hours and map (CTA 5 - Agendar agora)
-7. FAQ
+7. FAQ (<details>/<summary>)
 8. Footer 
 
 --------------------------------
