@@ -1,0 +1,141 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #d0d0d0;
+    color: #f0f0f0;
+    
+    display: flex;
+    /* current main-axis */
+    flex-direction: row;
+    /* main-axis */
+    justify-content: center;
+    /* cross-axis */
+    align-items: center;
+
+    overflow: hidden;
+    position: relative;
+}
+
+/* background image */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./img/bandeira-ro.png") no-repeat center center/cover;
+    z-index: -2;
+}
+
+/* Fade/Fate? */
+.background-overlay {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* main-content */
+.content {
+    text-align: center;
+    z-index: 1;
+}
+
+.content h1 {
+    font-size:  4rem;
+    color: #ff6347;
+    text-shadow: 2px 2px #000;
+}
+
+.content p {
+    margin: 10px 0;
+    text-shadow: 2px 2px #000;
+}
+
+.know-more {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6347;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    margin-top: 25px;
+}
+
+.know-more:hover {
+    background-color: #e5533c;
+}
+
+/* Toggle-menu styles */
+.toggle-menu {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 4;
+}
+
+#state-switcher {
+    display: none;
+}
+
+.checkbox-trigger {
+    width: 35px;
+    height: 30px;
+    display: flex;
+    /* current main-axis */
+    flex-direction: column;
+    /* main-axis */
+    justify-content: space-around;
+    z-index: 5;
+    position: relative;
+}
+
+.line {
+    height: 4px;
+    background-color: #ff6347;
+    border-radius: 2px;
+}
+
+/* Nav links styles */
+.overlay-nav-links {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 5;
+    transform: translate(50%, -50%); /* Study later */
+    text-align: center;
+}
+
+.overlay-nav-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.overlay-nav-links ul li {
+    margin: 20px 0;
+}
+
+.overlay-nav-links a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ff6347;
+    transition: 0.3s;
+}
+
+.overlay-nav-links a:hover {
+    color: #fff;
+}
