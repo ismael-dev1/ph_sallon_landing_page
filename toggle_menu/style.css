@@ -10,6 +10,8 @@ body {
     background-color: #d0d0d0;
     color: #f0f0f0;
     
+    height: 100vh;
+
     display: flex;
     /* current main-axis */
     flex-direction: row;
@@ -97,45 +99,76 @@ body {
     /* current main-axis */
     flex-direction: column;
     /* main-axis */
-    justify-content: space-around;
+    justify-content: space-between;
     z-index: 5;
     position: relative;
+    cursor: pointer;
 }
 
 .line {
     height: 4px;
     background-color: #ff6347;
     border-radius: 2px;
+    transition: 0.3s;
+}
+
+.overlay-nav-links {
+    background-color: rgba(0, 0, 0, 0.95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: scale(0);
+    transition: 0.5s;
 }
 
 /* Nav links styles */
-.overlay-nav-links {
-    background-color: #fff;
+.nav-links {
     position: absolute;
     top: 50%;
     right: 50%;
-    z-index: 5;
     transform: translate(50%, -50%); /* Study later */
     text-align: center;
 }
 
-.overlay-nav-links ul {
+.nav-links ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.overlay-nav-links ul li {
+.nav-links ul li {
     margin: 20px 0;
 }
 
-.overlay-nav-links a {
+.nav-links a {
     text-decoration: none;
     font-size: 2rem;
     color: #ff6347;
     transition: 0.3s;
 }
 
-.overlay-nav-links a:hover {
+.nav-links a:hover {
     color: #fff;
+}
+
+/* Animation */
+#state-switcher:checked + .checkbox-trigger .line:nth-child(1) {
+    transform: rotate(45deg) 
+    translate(13px, 13px); /* Study later */
+}
+
+#state-switcher:checked + .checkbox-trigger .line:nth-child(2) {
+    opacity: 0;
+}
+
+#state-switcher:checked + .checkbox-trigger .line:nth-child(3) {
+    transform: rotate(-45deg)
+    translate(5px, -5px); /* Study later */
+}
+
+#state-switcher:checked ~ .overlay-nav-links {
+    transform: scale(1);
 }
