@@ -14,7 +14,7 @@ MOBILE (first)
 		- Location, hours and map (Como chegar)
 		- FAQ (Perguntas frequentes)
 
-2. Hero: 
+2. Hero: (Início)
 	- Headline (5 to 8 words)
 	- Subheadline
 	- Booking link (CTA)
