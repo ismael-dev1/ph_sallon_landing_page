@@ -1,4 +1,5 @@
-/* Global reset */
+
+/* ========GLOBAL RESET======== */
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +11,14 @@ html {
 }
 
 body {
-    background-color: green;
-    
+    background-color: green;   
 }
+/* ========================================== */
 
 
-/* HEADER */
+
+
+/* ========HEADER======== */
 header {
     background-color: yellow;
     width: 100%;
@@ -30,19 +33,22 @@ header {
     width: 20rem;
     background-color: darkgreen;
 }
+/* ========================================== */
 
 
-/* TOGGLE MENU */
-.toggle-menu {
-    background-color: lightblue;
+
+
+/* ========TOGGLE MENU======== */
+.toggle-menu-container {
+    background-color: rebeccapurple;
+    /* margin-top: 1.5rem; */
 }
 
 #state-switcher {
-    /* display: none; */
+    display: none;
 }
 
-/* menu-trigger */
-.menu-trigger {
+.state-switcher-trigger {
     width: 3.5rem;
     height: 3rem;
 
@@ -52,26 +58,86 @@ header {
     /* main-axis */
     justify-content: space-between;
 
-    z-index: 1;
+    z-index: 2;
 
     position: relative;
     cursor: pointer;
 }
 
+/* Visual lines that create the "hamburguer" visual effect as the menu's icon */
 .line {
     height: 0.4rem;
     background-color: #C9A84C;
-    border-radius: 0.2rem; 
+    border-radius: 0.2rem;
+    transition: 0.3s;
 }
 
-.nav-links-background {
-    width: 100%;
-    height: 100%;
+.nav-links-container {
     background-color: rgba(0, 0, 0, 0.95);
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
-    transform: scale(1); /* Study later */
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform: scale(0); /* Study later */
+    transition: 0.5s;
+}
+
+.nav-links {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%); /* Study later */
+    text-align: center;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-links ul li {
+    margin: 2rem 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
     transition: 0.3s;
 }
+
+.nav-links a:hover {
+    color: #C9A84C;
+}
+
+/* Animation and activation */
+
+/* Animation */
+/* First line */
+#state-switcher:checked + 
+.state-switcher-trigger .line:nth-child(1) {
+    transform: rotate(45deg)
+    translate(13px, 13px);
+}
+
+/* Second line */
+#state-switcher:checked +
+.state-switcher-trigger .line:nth-child(2) {
+    opacity: 0;
+}
+
+/* Third line */
+#state-switcher:checked +
+.state-switcher-trigger .line:nth-child(3) {
+    transform: rotate(-45deg) /* Study later */
+    translate(5px, -5px); /* Study later */
+}
+
+/* Activation/Deactivation  */
+#state-switcher:checked ~ .nav-links-container {
+    transform: scale(1);/* Study later */
+}
+/* ========================================== */
