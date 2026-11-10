@@ -22,16 +22,17 @@ body {
 
 /* ========HEADER======== */
 header {
-    background-color: yellow;
+    /* background-color: green; */
     width: 100%;
     height: auto;
+    border-bottom: 1px solid #C9A84C;
     display: flex;
     justify-content: space-between;
 }
 
 .header_logo {
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .header_logo a {
@@ -42,11 +43,11 @@ header {
 .header_logo a .logo-ph-sallon {
     width: 7.3rem;
     height: 5.3rem;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
 }
 
 .header_logo a .logo-nome-ph-sallon {
-    background-color: gray;
+    /* background-color: gray; */
     width: 12.8rem;
     height: 5.3rem;
     margin: 0 auto;
@@ -56,7 +57,15 @@ header {
 
 /* ========TOGGLE MENU======== */
 .toggle-menu-container {
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
+    width: 7.3rem;
+    height: 5.3rem;
+
+    display: flex;
+    /* current main-axis */
+    flex-direction: column;
+    /* main-axis */
+    justify-content: center;
 }
 
 #state-switcher {
@@ -64,9 +73,10 @@ header {
 }
 
 .state-switcher-trigger {
-    width: 4.8rem;
-    height: 3rem;
-    margin-top: 1rem;
+    background-color: black;
+    width: 3.2rem;
+    height: 1.8rem;
+    margin: 0 auto;
 
     display: flex;
     /* current main-axis */
@@ -83,7 +93,7 @@ header {
 /* Visual lines that create the "hamburguer" visual effect as the menu's icon */
 .line {
     width: 3.2rem;
-    height: 0.4rem;
+    height: 0.3rem;
     margin: 0 auto;
     background-color: #fff; 
     transition: 0.3s;
@@ -140,7 +150,7 @@ header {
 #state-switcher:checked + 
 .state-switcher-trigger .line:nth-child(1) {
     transform: rotate(45deg)
-    translate(13px, 13px);
+    translate(2px, 5px);
 }
 
 /* Second line */
@@ -153,11 +163,18 @@ header {
 #state-switcher:checked +
 .state-switcher-trigger .line:nth-child(3) {
     transform: rotate(-45deg)
-    translate(5px, -5px);
+    translate(5px, -9px);
 }
 
 /* Activation/Deactivation  */
 #state-switcher:checked ~ .nav-links-container {
     transform: scale(1);
+}
+/* ========================================== */
+
+/* ========HERO SECTION======== */ 
+.hero_image {
+    width: 37.5rem;
+    height: 56.2rem;
 }
 /* ========================================== */
