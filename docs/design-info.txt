@@ -34,5 +34,9 @@ Design:
 		Texto da avaliação: #D6D6D6
 		Estrelas e detalhes: #D4AF37
 
-
+	Font-weight:	
+		Regular - 400
+		SemiBold - 600
+		Bold - 700
+		ExtraBold - 800
 	

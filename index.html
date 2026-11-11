@@ -13,8 +13,7 @@
         <!-- Header logo -->
         <div class="header_logo">
             <a href="#">
-                <img class="logo-ph-sallon" src="./assets/images/header_and_hero/logo_ph_salon.svg"
-                    alt="PHSALLON BARBEARIA, página inicial">
+                <img class="logo-ph-sallon" src="./assets/images/header_and_hero/logo_ph_salon.svg" alt="PHSALLON BARBEARIA, página inicial">
 
                 <img class="logo-nome-ph-sallon" src="./assets/images/header_and_hero/logo-nome-ph-sallon_2.svg" alt="">
             </a>
@@ -28,16 +27,16 @@
 
             <!-- menu-trigger -->
             <label for="state-switcher" class="state-switcher-trigger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
             </label>
 
-            <!-- Nav links-->
+            <!-- nav links-->
             <div class="nav-links-container">
                 <nav class="nav-links">
                     <ul>
-                        <li><a href="#">Início</a></li>
+                        <li><a href="#hero_section">Início</a></li>
                         <li><a href="#">Galeria</a></li>
                         <li><a href="#">Feedback</a></li>
                         <li><a href="#">Serviços</a></li>
@@ -52,13 +51,21 @@
     <div class="header-background"></div>
 
     <main>
-        <section class="hero_section">
-            <div class="background"></div>
-            <h1 class="head-line">Visual<br> alinhado e<br> confiança renovada<br> em uma<br> única visita</h1>
+        <!-- Hero section -->
+        <section id="hero_section">
+            <!-- Headline -->
+            <h1 class="head-line">
+                Visual<br> alinhado e<br> <span class="golden-text">confiança renovada</span><br> em uma<br> única
+                visita
+            </h1>
 
-            <div class="hero_image_container">
-                <img class="hero_image" src="./assets/images/header_and_hero/hero_image_mobile.avif" alt="Hero image">
-            </div>
+            <!-- Subheadline -->
+            <p class="sub-head-line">
+                Especialista em cortes e<br> barba em Porto Velho.<br> Barbeiro profissional<br> desde 2017.
+            </p>
+
+            <!-- Hero cta link -->
+            <a class="hero-cta-link"  href="https://chat.inbarberapp.com/AgendarcomPH" target="_blank">Agendar meu horário</a>
         </section>
     </main>
 </body>
