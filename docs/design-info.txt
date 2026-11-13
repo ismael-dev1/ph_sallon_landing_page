@@ -39,4 +39,13 @@ Design:
 		SemiBold - 600
 		Bold - 700
 		ExtraBold - 800
-	
+
+
+	Reutilização de estilos comuns:
+		- Variáveis css
+		- Aproveitar o fator herança (a partir do body) 
+		- Estilo base + estilo específico (modificador)
+
+
+https://gemini.google.com/app/4098d2e59c7b0ac8
+https://notebook.google.com/notebook/3bc8e6c1-9fde-4f32-bb29-4da15d300358

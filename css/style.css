@@ -15,25 +15,45 @@ html {
     scroll-behavior: smooth;
 }
 
+/* ========GLOBAL VARIABLES======== */
+:root {
+    /* Global colors */
+    --global-golden: #C9A84C;
+    --global-pure-white: #fff;
+    --global-off-white: #F5F1E8;
+    --global-light-Gray: #D6D6D6;
+    --global-charcoal-gray: #1A1A1A;
+    --global-black: #0B0B0B;
+
+    /* Global font properties */
+    --global-font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-regular: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+}
+/* ====================== */
+
+/* ========DEFAULT ELEMENTS STYLES======== */
+
+
+/* ====================== */
 body {
-    background-color: #000;
+    background-color: var(--global-black);
+    font-family: var(--global-font-family);
 }
 
 /* ========================================== */
 
-/* ========COLORS======== */
-.golden-text {
-    color: #C9A84C;
-}
-/* ====================== */
-
 
 /* ========HEADER======== */
 header {
-    background-color: #000;
+    background-color: var(--global-black);
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #C9A84C;
+    border-bottom: 1px solid var(--global-golden);
 
     display: flex;
     justify-content: space-between;
@@ -107,7 +127,7 @@ header {
     width: 3.2rem;
     height: 0.3rem;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: var(--global-off-white);
     transition: 0.3s;
 }
 
@@ -145,14 +165,13 @@ header {
 .nav-links a {
     text-decoration: none;
     font-size: 3rem;
-    font-family: 'Montserrat';
     font-weight: 500;
-    color: #fff;
+    color: var(--global-off-white);
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    color: #C9A84C;
+    color: var(--global-golden);
 }
 
 /* Animation and activation */
@@ -177,6 +196,7 @@ header {
 #state-switcher:checked~.nav-links-container {
     transform: scale(1);
 }
+
 /* ========================================== */
 
 
@@ -197,13 +217,16 @@ header {
     min-width: 24.4rem;
     min-height: 28.4rem;
 
-    color: #fff;
-    font-family: 'Montserrat';
+    color: var(--global-off-white);
     font-weight: 800;
     font-size: 4rem;
 
     text-align: left;
     line-height: 4.9rem;
+}
+
+.golden-text {
+    color: var(--global-golden);
 }
 
 .sub-head-line {
@@ -212,14 +235,15 @@ header {
 
     margin-top: 2.1rem;
 
-    color: #fff;
-    font-family: 'Montserrat';
+    color: var(--global-off-white);
     font-weight: 400;
     font-size: 1.6rem;
+
+    line-height: 2rem;
 }
 
 .hero-cta-link {
-    background-color: #C9A84C;
+    background-color: var(--global-golden);
     display: block;
 
     width: 32rem;
@@ -234,8 +258,8 @@ header {
 
     text-decoration: none;
     color: #000;
-    font-family: 'Montserrat';
     font-weight: 600;
     font-size: 1.8rem;
 }
+
 /* ========================================== */
