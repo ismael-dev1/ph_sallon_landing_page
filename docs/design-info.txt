@@ -40,12 +40,54 @@ Design:
 		Bold - 700
 		ExtraBold - 800
 
+========================================================================
 
-	Reutilização de estilos comuns:
+Reutilização de estilos comuns:
 		- Variáveis css
 		- Aproveitar o fator herança (a partir do body) 
 		- Estilo base + estilo específico (modificador)
 
+Colors - OK 
+Font properties - ...
 
-https://gemini.google.com/app/4098d2e59c7b0ac8
-https://notebook.google.com/notebook/3bc8e6c1-9fde-4f32-bb29-4da15d300358
+font familly - OK
+font size - ...
+font weight - OK
+
+font size - ...
+
+Title - OK
+Texts - OK
+CTA - OK
+
+Exceções:
+
+	Font size:
+		- Headline - 40px
+		- 1º CTA - 18px
+		- O texto apoio "Garanta seu horário" do CTA de "Venha 			  nos visitar" - 27px
+		- 2 últimos subtítulos de "Nossos serviços" - 17.5px
+		- Os dois títulos de "Venha nos visitar" - 17.5px e 15px
+		- Último texto do rodapé - 12px
+		- Subheadline - 16px
+		- Os textos de endereço e horário de funcionamento de 			 "Venha nos visitar" - 16px
+		- Os três primeiros textos do footer - 16px (Aplicar no root em font-size text)
+	
+	Line height:
+		- Headline - 49px
+		- Subheadline - 20px
+		- 1º CTA - 22px
+		- Os textos de endereço e horário de funcionamento de 			 "Venha nos visitar" - 20px
+		- O texto apoio "Garanta seu horário" do CTA de "Venha 			  nos visitar" - 24px
+
+font-family
+font-size
+font-weight
+- 
+
+De uma a duas ocorrências -> Aplicação individual ou classe compartilhada
+A partir de três ocorrências -> Dá pra considerar uma variável
+
+https://notebook.google.com/notebook/3bc8e6c1-9fde-4f32-bb29-4da15d300358?authuser=1
+https://gemini.google.com/u/1/app/4098d2e59c7b0ac8?pageId=none
+https://gemini.google.com/u/1/app/4098d2e59c7b0ac8?pageId=none
