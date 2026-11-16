@@ -33,7 +33,7 @@ html {
     --review-text-font-size: 1.2rem;
     --services-text-font-size: 1.6rem;
     --faq-text-font-size: 1rem;
-    /* continua... */
+    --footer-text-font-size: 1.6rem;
     /* CTA */
     --cta-font-size: 1.7rem;
 
@@ -53,7 +53,14 @@ html {
     --services-text-line-height: 2.4rem;
     --faq-text-line-height: 1.2rem;
     --footer-text-line-height: 2rem;
-    /* continua... */
+    /* CTA */
+    --cta-line-height: 2.1rem;
+
+    /* Letter spacing*/
+    /* titles */
+    --general-title-letter-spacing: 1%;
+    /* texts */
+    --review-text-letter-spacing: 0;
 
     /* -------- COLORS -------- */ 
     --global-golden: #C9A84C;
