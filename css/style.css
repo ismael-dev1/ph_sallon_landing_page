@@ -44,29 +44,11 @@ html {
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
 
-    /* Line height */
-    /* titles */
-    --section-title-line-height: 3.3rem;
-    --general-title-line-height: 2.4rem;
-    /* texts */
-    --review-text-line-height: 1.5rem;
-    --services-text-line-height: 2.4rem;
-    --faq-text-line-height: 1.2rem;
-    --footer-text-line-height: 2rem;
-    /* CTA */
-    --cta-line-height: 2.1rem;
-
-    /* Letter spacing*/
-    /* titles */
-    --general-title-letter-spacing: 1%;
-    /* texts */
-    --review-text-letter-spacing: 0;
-
     /* -------- COLORS -------- */ 
     --global-golden: #C9A84C;
     --global-pure-white: #fff;
     --global-off-white: #F5F1E8;
-    --global-light-Gray: #D6D6D6;
+    --global-light-gray: #D6D6D6;
     --global-charcoal-gray: #1A1A1A;
     --global-black: #0B0B0B;
 }
@@ -254,14 +236,14 @@ header {
     min-height: 28.4rem;
 
     color: var(--global-off-white);
-    font-weight: 800;
+    font-weight: var(--font-weight-extrabold);
     font-size: 4rem;
 
     text-align: left;
     line-height: 4.9rem;
 }
 
-.golden-text {
+.key-words {
     color: var(--global-golden);
 }
 
@@ -272,7 +254,7 @@ header {
     margin-top: 2.1rem;
 
     color: var(--global-off-white);
-    font-weight: 400;
+    font-weight: var(--font-weight-regular);
     font-size: 1.6rem;
 
     line-height: 2rem;
@@ -294,8 +276,7 @@ header {
 
     text-decoration: none;
     color: #000;
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     font-size: 1.8rem;
 }
-
 /* ========================================== */
